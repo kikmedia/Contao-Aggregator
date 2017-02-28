@@ -509,7 +509,7 @@ class AggregatorEngine extends \Backend{
 	
 	private function checkForBadwords($badwords, $string)
 	{
-			if($bawords[0] != ''){
+			if($badwords[0] != ''){
 				foreach($badwords as $badword)
 				{
 					if(strpos($string, $badword) !== false)
